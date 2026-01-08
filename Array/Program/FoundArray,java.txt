@@ -1,0 +1,5 @@
+import java.uti.Scanner;
+class FoundArray{
+	public static void main(String args[]){
+	}
+}
