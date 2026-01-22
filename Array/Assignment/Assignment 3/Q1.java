@@ -6,8 +6,6 @@ Output: [-1, -1, 7, -1, 10]
 Explanation:
  Elements divisible by 3 are 3, 6, 9. These are replaced with -1. Other elements remain unchanged.
 */
-
-import java.util.*;
 public class Q1{
 	public static void main(String args[]){
 		
