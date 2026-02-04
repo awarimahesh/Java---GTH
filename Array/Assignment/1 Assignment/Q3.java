@@ -26,7 +26,7 @@ class Q3{
 	System.out.println("even array:");
 	for(int i=0;i<a.length;i++){
 		if(a[i]%2==0){
-			System.out.println("Even array element:"+a[i]);
+			System.out.println("Even array elemgitent:"+a[i]);
 		}
 	}
 	System.out.println("Odd array:");
