@@ -1,2 +1,0 @@
-/*Example: WAP to create a function name as sort() and perform sorting of integer array and character array.
-*/
