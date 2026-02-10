@@ -74,4 +74,3 @@ public class StackExample {
         sc.close();
     }
 }
-gi
