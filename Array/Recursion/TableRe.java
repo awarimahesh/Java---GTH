@@ -1,4 +1,4 @@
-/*table*/
+
 import java.util.*;
 class TableRe{
 	static int count=1;
