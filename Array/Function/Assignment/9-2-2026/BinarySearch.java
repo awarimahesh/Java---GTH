@@ -16,7 +16,7 @@ public static void main(String args[]){
 	for(int i=0;i<a.length;i++){
 		System.out.println(a[i]);
 	}
-	Arrays.sort(a);
+	Arrays.sort(a);//binary search oly work on sorted arry.
 	System.out.println("Arry After sorting:");
 	for(int i=0;i<a.length;i++){
 		System.out.println(a[i]);
@@ -30,13 +30,13 @@ public static void main(String args[]){
 	
 	// main logic
 	while(L<R){
-		int mid=L+(R-L)/2;
+		int mid=L+(R-L)/2;//finding mid
 		if(a[mid]==skey){
 			index=mid;
 			break;
 			
 		}
-		if(a[mid]<skey){
+		if(a[mid]<skey){//her mid is less then skey thats whay using L=mid+1
 			L=mid+1;
 		}
 		else{
