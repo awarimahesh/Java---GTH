@@ -160,19 +160,12 @@ Q14. What is the difference between shallow copy and deep copy of an array?
 	but element are point same meory   					no affect in orignal array
 		
 
-	int[] arr1 = {10, 20, 30};                          int[] arr1 = {10, 20, 30};
-int[] arr2 = new int[arr1.length];
+	int[] arr1 = {10, 20, 30};                          int[] arr1 = {10, 20, 30};           
+	int[] arr2 = arr1;   // shallow copy                int[] arr2 = new int[arr1.length];
 
-for(int i = 0; i < arr1.length; i++) {
-    arr2[i] = arr1[i];
-}
-
-arr2[0] = 100;
-System.out.println(arr1[0]); // 10
-	int[] arr2 = arr1;   // shallow copy
-
-	arr2[0] = 100;
-	System.out.println(arr1[0]); // 100
+	arr2[0] = 100;										for(int i = 0; i < arr1.length; i++) {
+	System.out.println(arr1[0]); // 100							arr2[i] = arr1[i];
+	.                                                               }
 
 Q15. What is the use of the Arrays class in Java?
 
@@ -216,7 +209,7 @@ Same datat type using only
 
 no built in methods
 
-its is no runtime pe growing or shring ;
+its is no runtime pe growing or shrinking ;
 on direct change ->becose change is creating new array and after deleting 
 The main limitations of arrays in Java are fixed size, same data type restriction,
  lack of built-in methods, and inefficient 
@@ -337,3 +330,30 @@ arr2[0] = 100;
 
 System.out.println(arr1[0]); // Output: 100
 System.out.println(arr2[0]); // Output: 100
+
+
+Q26 What is function?
+--> function is a block of statement wich is use for writing a logic and 
+we can reuse more than one time.
+
+Q27 . What is the use  function or What are the benefits of function?
+-->Reusability : reusability means we can define a function more than once and we 
+		can reuse it more than means we can write logic only one time and we can reuse it more 
+		than one time by calling a function.
+
+Modularity : modularity means we can divide the large logics into sub functions and integrate
+			them internally called as modularity 
+
+Types of function 
+Built in function : Built in function means those functions already provided by java to 
+					us called as built in function or library function.
+					E.g nextInt(),nextFloat(), nextDouble(),Math.pow() etc 
+User Defined function : user defined function means those function defined by user
+					for its own work called as user defined function.
+
+Q28 Stack : Stack is a data structure which is used for arrange data in last in first out format 
+Means last added data remove first and first added data remove last 
+Stack is a single ended data structure means we can remove data from stack at the same end 
+and can store data in stack using the same end.
+Stack has one pointer  known as top and initially top is -1 and using top we can store data in 
+stack and remove data from stack.
