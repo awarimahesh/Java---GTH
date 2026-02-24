@@ -1,0 +1,5 @@
+/*
+Pojo
+*/
+class Department{
+}
