@@ -5,11 +5,11 @@ class Department{
 	private String Name;
 	private String Address;
 	
-	public void setId(int i){
+	public void setID(int i){
 		ID=i;
 	}	
 	public int getID(){
-		return id;
+		return ID;
 	}
 
 	public void setSalary(long sal){
@@ -23,17 +23,23 @@ class Department{
 		Name=n;
 	}
 	public String getName(){
-		return name;
+		return Name;
 	}
 	
-	
+	public void setAddress(String a){
+    Address = a;
+}
+
+public String getAddress(){
+    return Address;
+}
 }
 	class Employee{
 		private Department department;
 		void addNewDepartment(Department dep){
-			Department=dep;
+			department=dep;
 		}
-		void showDepartmnet(){
+		void showDepartment(){
 			System.out.println(department.getID()+"\t"+department.getSalary()+"\t"+department.getName()+"\t"+department.getAddress());
 		}
 	}
