@@ -1,5 +1,5 @@
 /*
-Q2.Create a POJO class Student with:
+Q2.Create a POJO class Student with: Example 
 rollNo (int)
 name (String)
 marks (int)
