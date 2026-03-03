@@ -1,12 +1,12 @@
 /*
 Q1. Write a java program to find the frequency of each digit
-in a given integer number (user input).
+in a given integer number .
 */
 import java.util.Scanner;
 
 public class Q1 {
     public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);// Take number from user
+        Scanner sc = new Scanner(System.in);//  Mahesh Take number from user
         System.out.print("Enter number: ");
         int num = sc.nextInt();      // Frequency array for digits 0 to 9
         int[] freq = new int[10];
