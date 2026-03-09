@@ -50,7 +50,7 @@ class Product1{
 	}
 	
 	public int getId(){
-		retrn id;
+		return id;
 		
 	}
 	public String getName(){
@@ -59,30 +59,47 @@ class Product1{
 	public int getPrice(){
 		return price;
 	}
+	
 }
-public class product{
+public class Product{
 	public static void main(String args[]){
 		
 		Scanner sc = new Scanner(System.in);
 		
-		product1 p=new Product1();
+		System.out.println("Enter number of product:");
+		int no=sc.nextInt();
+		Product1 []p=new Product1[no];
 		
-		Sytem.out.println("Enter product id :");
+		for(int i=0;i<no;i++){
+			p[i]=new Product1();
+		
+		
+		System.out.println("Enter product id :");
 		int id=sc.nextInt();
 		
-		System.out.println("Enter product Nmae:");
+		System.out.println("Enter product Name:");
 		String name=sc.next();
 		
-		System.out.println("Enter product Prixe:");
+		System.out.println("Enter product Price:");
 		int price=sc.nextInt();
 		
-		p.setId(id);
-		p.setNmae(name);
-		p.setPrice(price);
+		p[i].setId(id);
+		p[i].setName(name);
+		p[i].setPrice(price);
 		
-		if(s.getPrice()>=5000){
-			int price=price-(price*20)/100;
+		double total=p[i].getPrice();
+		double discount;
+		if(total>=5000){
+			 discount=total*0.15;
 		}
+		else{
+			discount=total*0.10;
+		}
+		double finalamount=total-discount;
+		System.out.println("ID\tName\tPrice\tDiscount\tFinal Price");
+		
+		System.out.println(p[i].getId()+"\t"+p[i].getName()+"\t"+total+"\t"+discount+"\t"+finalamount);		
 		
 	}
+}
 }
