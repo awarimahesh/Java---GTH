@@ -9,3 +9,27 @@ Create a subclass Manager that:
     Task: Write a program to display employee name and total salary.
 
 */
+import java.uti.*;
+class Employee{
+	private String name;
+	private double basicSalary;
+	
+	public void setName(String name){
+		this.name=name;
+	}
+	public void setBasicSalary(double basicSalary){
+		this.basicSalary=basicSalary;
+	}
+	
+	public String getName(){
+		return name;
+	}
+	public double getBasicSalary(){
+		return basicSalary;
+	}
+	
+	
+}
+class Manager extends Employee{
+	
+}
