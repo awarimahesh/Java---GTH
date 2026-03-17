@@ -1,7 +1,7 @@
 
 /*	
 
-
+Pattern
 */
 import java.util.*;
 	class MCQ35{
