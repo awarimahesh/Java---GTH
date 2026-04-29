@@ -5,6 +5,9 @@ Output: Count of Perfect numbers = 3
 Explanation: A Perfect number is equal to the sum of its proper divisors (excluding itself). For each element, find sum of divisors and compare with the number, then count.
 
 */
-*/
 import java.util.*;
-pubic class Q9
+pubic class Q9{
+	public static void main(String args[]){
+		
+	}
+}

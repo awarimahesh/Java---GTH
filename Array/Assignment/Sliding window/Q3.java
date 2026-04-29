@@ -23,6 +23,6 @@ public class Q3{
 			maxSum=sum;
 		}
 	}
-		System.out.println("MAximum value "+maxSum);
+		System.out.println("MAximum value	 "+maxSum);
 	}
 }

@@ -1,4 +1,4 @@
-
+/*Q1. Write a java program to Check Number Is Armstrong Number or Not. */
 import java.util.Scanner;
 class Q1 {
     public static void main(String[] args) {

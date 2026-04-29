@@ -10,11 +10,11 @@ Output - Square = 25
 */
 class Q3{
 	public static void main(String args[]){
-		int result=square(10);
-		System.out.println("Squre is:"+result);
+		int result=square(10);// call
+		System.out.println("Square is:"+result);
 	}
 	public static int square(int no){
-		int result=no*no;
+		int result=no*no;//multipliction
 		return result;
 	}
 }

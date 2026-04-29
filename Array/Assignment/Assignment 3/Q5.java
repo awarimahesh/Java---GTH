@@ -42,3 +42,4 @@ public class Q5{
             System.out.println("First repeatinng element is"+rep[0]);
         }
     }
+	

@@ -28,9 +28,7 @@ public class Q9{
 			if(a[i]==a[j]){
 				i++;
 				j--;
-				
-			
-			
+
 			}
 			count++;
 		}

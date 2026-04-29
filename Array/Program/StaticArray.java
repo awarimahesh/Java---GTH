@@ -1,3 +1,4 @@
+
 import java.util.*;
 	class StaticArray{
 	public static void main(String args[]){

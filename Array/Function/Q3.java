@@ -4,7 +4,7 @@ public static void main(String args[]){
 	
 	int a[]=new int[]{10,20,30,40,20};
 	show (a);
-	System.out.println("Disp;ay arry:");
+	System.out.println("Display arry:");
 	for (int i=0;i<a.length;i++){
 	System.out.println(""+a[i]);
 	}
