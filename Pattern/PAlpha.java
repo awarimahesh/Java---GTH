@@ -7,11 +7,9 @@ class PAlpha {
         
         for (i = 1; i <= 5; i++) {
             int count = 0; 
-            
             for (j = 1; j <= 9; j++) {
                 
                 if (j <= 6 - i || j >= 4 + i) {
-                    
                     
                     
                     if (j <= 6 - i) {
