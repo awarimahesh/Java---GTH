@@ -1,7 +1,6 @@
 /*
 Question 1: Write a Java program to create a thread using Thread class 
 and display numbers from 1 to 10.
-
 */
 import java.util.*;
 class MyThread extends Thread{
@@ -11,9 +10,36 @@ class MyThread extends Thread{
 		}
 	}
 
+
+
+
+
+
 	public static void main (String args []){
 		MyThread mt = new MyThread();
 		
 		mt.start();
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
