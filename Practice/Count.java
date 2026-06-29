@@ -25,6 +25,7 @@ public class Count{
 		int digit=0;
 		int spacial=0;
 		int consonant=0;
+		mahesh awari
 		
 		
 		for(int i=0;i<str.length();i++){
