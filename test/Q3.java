@@ -1,8 +1,6 @@
-/*Q3. Write a Java program to design queue using array and reverse elements without extra data 
+git/*Q3. Write a Java program to design queue using array and reverse elements without extra data 
 structure. 
-Explanation 
-Use swapping logic: 
-• First element ↔ Last element  
+Explanation  
 • Continue till middle. 
 Input :10 20 30 
 Output : 30 20 10*/
