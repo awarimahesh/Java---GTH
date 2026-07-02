@@ -9,10 +9,16 @@ Answer
 Use Inheritance to represent common login functionality and Method Overriding (Polymorphism)
  for role-specific behavior.
 
+
+ Create a parent class User with a common login() method.
+Create child classes Admin, Student, and Trainer.
+Each child class overrides the login() method according to its role.git 
+
+
+
 Create a parent class User with a common login() method.
 Create child classes Admin, Student, and Trainer.
 Each child class overrides the login() method according to its role.
-
 */
 class User {
     void login() {
