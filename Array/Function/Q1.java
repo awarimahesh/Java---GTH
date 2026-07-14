@@ -1,5 +1,7 @@
-/*Function*/ mahesh
+/*Function*/ mahesh awari
+
 import java.util.*;
+
 public class Q1{
 	public static void main (String args[]){
 		calAdd(100,200);
